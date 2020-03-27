@@ -1,0 +1,17 @@
+
+spring:
+    application:
+      name: config-server
+    cloud:
+      config:
+        server:
+          git:
+            #配置github
+            uri: https://github.com/HeroLipeng/springcloudpractice.git
+            #配置搜索目录
+            search-paths:
+            - configfiles
+        #配置分支
+        label: dev
+server:
+  port: 8888
