@@ -12,6 +12,7 @@
         <module>gateway-server</module>
         <module>config-server</module>
         <module>config-client</module>
+        <module>service-user-interface</module>
 
 
     </modules>
